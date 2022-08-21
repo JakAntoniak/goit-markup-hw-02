@@ -1,3 +1,5 @@
+/* Index */
+
 body {
   font-family: "Roboto", "Raleway", "sans-serif";
   width: 1600px;
@@ -8,11 +10,201 @@ body {
 }
 
 header {
-  position: absolute;
   width: 1598px;
   height: 78px;
   border: 1px solid #ececec;
+  position: absolute;
 }
+.header-logo {
+  position: relative;
+  width: 145px;
+  height: 31px;
+  margin-left: 215px;
+  margin-top: 24px;
+  font-family: "Raleway";
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.logo-secondary-color {
+  color: #000000;
+}
+.logo-third-color {
+  color: white;
+}
+nav {
+  width: 261px;
+  height: 16px;
+  margin-left: 93px;
+  margin-top: 32px;
+  font-size: 14px;
+  line-height: 0.875;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  word-spacing: 46px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+nav :hover {
+  color: #2196f3;
+}
+
+div a {
+  position: absolute;
+  top: 32px;
+  height: 16px;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  color: #757575;
+  letter-spacing: 0.02em;
+  line-height: 0.875;
+}
+
+div a:hover,
+a:focus {
+  color: #2196f3;
+  text-decoration: underline;
+}
+
+.header-email {
+  left: 1078px;
+}
+
+.header-tel {
+  left: 1263px;
+}
+
+.header-box {
+  width: 1600px;
+  height: 600px;
+  background-color: #2f303a;
+  position: absolute;
+  margin-top: 80px;
+}
+h1 {
+  width: 696px;
+  height: 120px;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.37;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  position: absolute;
+  margin: 200px 452px 280px;
+}
+
+.zamow-button {
+  width: 200px;
+  height: 50px;
+  background-color: #2196f3;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  position: absolute;
+  margin: 350px 700px 200px;
+  cursor: pointer;
+}
+
+.article {
+  position: absolute;
+  width: 1170px;
+  height: 101px;
+  margin: 774px 0 1474px;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.article ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li div {
+  font-weight: 700;
+}
+li p {
+  color: #757575;
+}
+
+.first-article {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  padding: 0 1115px 0 215px;
+}
+
+.second-article {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  padding: 0 815px 0 515px;
+}
+
+.third-article {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  padding: 0 515px 0 815px;
+}
+
+.fourth-article {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  padding: 0 215px 0 1115px;
+}
+
+.what-we-do {
+  position: absolute;
+  width: 1170px;
+  height: 386px;
+  margin: 969px 215px 994px;
+}
+h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  letter-spacing: 0.03em;
+  margin: 0;
+  padding: 0;
+}
+
+.what-we-do-pic-1 {
+  position: absolute;
+  margin: 92px 800px 0 0;
+}
+.what-we-do-pic-2 {
+  position: absolute;
+  margin: 92px 400px 0;
+}
+.what-we-do-pic-3 {
+  position: absolute;
+  margin: 92px 0 0 800px;
+}
+.what-we-do ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.our-team {
+  position: absolute;
+  width: 1600px;
+  height: 648px;
+  margin: 1449px 0 0 0;
+}
+
+/* Portfolio */
+
 .header-logo {
   position: relative;
   width: 145px;
@@ -161,11 +353,12 @@ figcaption p {
 }
 
 footer {
-  position: relative;
+  position: absolute;
   width: 1600px;
   height: 252px;
   top: 1628px;
   background-color: #2f303a;
+  bottom: 0;
 }
 .footer-logo {
   position: absolute;
